@@ -12,18 +12,28 @@
   margin: 0 auto;
   border: 1px solid black;
   margin-top: 40px;
-  justify-content:end;
+  justify-content:flex-end;
   align-items:flex-end;
-  align-items: center;
-  align-self:flex-end;
-  align-content:end;
-  
   overflow: hidden;
-  order: 12;
+ 
 }
+.mom{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 40px;
+  justify-content:flex-end;
+  align-items:flex-end;
+  overflow: hidden;
 
+}
 
 .child {
   background-color: rgb(132, 144, 21);
   border: 1px solid black;
 }
+
+
